@@ -1,7 +1,7 @@
 <!-- Replace YOUR_USERNAME / YOUR_LINKEDIN / YOUR_EMAIL / YOUR_PORTFOLIO -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:302438,100:8F789D&height=115&section=header&text=EMNA%20%C2%B7%20AI%20ENGINEERING&fontSize=36&fontColor=F4EDF5&animation=fadeIn&fontAlignY=45" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:302438,100:8F789D&height=115&section=header&text=EMNA%20%C2%B7%20IT%GIRL&fontSize=36&fontColor=F4EDF5&animation=fadeIn&fontAlignY=45" width="100%" />
 </p>
 
 <p align="center">
