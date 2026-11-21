@@ -8,9 +8,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1500&color=B99CBF&center=true&vCenter=true&width=760&height=30&lines=Machine+Learning+%C2%B7+Deep+Learning;Generative+AI+%C2%B7+Agentic+Systems;Building+intelligent+systems+that+reason" alt="Technical focus" />
 </p>
 
-<p align="center">
-  <img src="neural-arcade.gif" width="100%" />
-</p>
+
 
 ```console
 emna@ai-lab:~$ whoami
@@ -24,7 +22,9 @@ emna@ai-lab:~$ ./now --verbose
 [studying] backpropagation · attention · knowledge graphs · RAG reranking
 [status]   loss ↓  motivation ↑
 ```
-
+<p align="center">
+  <img src="neural-arcade.gif" width="100%" />
+</p>
 
 ---
 
@@ -40,29 +40,7 @@ emna@ai-lab:~$ ./now --verbose
 
 ---
 
-<details>
-<summary><b>Agent Architecture</b></summary>
 
-```mermaid
-flowchart LR
-    U([User Query]) --> R{Router Agent}
-    R -->|Knowledge| RAG[RAG Retriever]
-    R -->|Reasoning| P[Planner]
-    R -->|Action| T[Tool Executor]
-    RAG --> V[(Vector DB)]
-    P --> L[LLM]
-    T --> L
-    V --> L
-    L --> E[Evaluator / Guardrails]
-    E -->|Fail| P
-    E -->|Pass| O([Final Answer])
-
-    style U fill:#8F789D,stroke:#B99CBF,color:#fff
-    style O fill:#B99CBF,stroke:#8F789D,color:#17141D
-    style R fill:#302438,stroke:#B99CBF,color:#fff
-    style E fill:#302438,stroke:#8F789D,color:#fff
-```
-</details>
 
 
 
