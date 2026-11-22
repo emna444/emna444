@@ -17,8 +17,7 @@ emna@ai-lab:~$ cat mission.txt
 Teaching machines common sense. Neurons: artificial. Passion: real.
  
 emna@ai-lab:~$ ./now --verbose
-[focus]    LangGraph multi-agent systems · neuro-symbolic AI · LLM evaluation
-[studying] backpropagation · attention · knowledge graphs · RAG reranking
+[focus]     multi-agent systems · RAG · Gen AI · Computer Vision
 [status]   loss ↓  motivation ↑
 ```
 <p align="center">
